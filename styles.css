@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.411);
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    border: px solid black;
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.header img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.clear{
+    position: relative;
+    bottom: 190px;
+    left: 420px;
+    color: black    ;
+    display: flex;
+    display: inline-block;
+}
+
+.clear i{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.content{
+    width: 500px;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    display: inline-block;
+    width: 500px;
+    justify-content: center;
+    height: 300px;
+    overflow: auto;
+}
+
+.text{
+    position: relative;
+}
+
+.fa-trash-alt{
+    /*margin-left: 200px;*/
+    font-size: 23px;
+    cursor: pointer;
+    padding-right:10px;
+    text-align: center;
+
+}
+
+.fa-circle{
+    /*margin-right: 100px;*/
+    font-size: 23px;
+    cursor: pointer;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.fa-check-circle{
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+    color: green;
+    border:none;
+    outline: none;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+}
+
+
+.lastDiv{
+    display: flex;
+    padding: 10px;
+}
+
+#input{
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px 7px 7px 7px;
+    position: relative;
+    top: 50%;
+    outline: none;
+    width: 350px;
+}
+
+#add{
+    margin-left: 10px;
+    font-size: 23px;
+    padding: 7px 7px 7px 7px;
+    color: green;
+}
+
+
+
+
